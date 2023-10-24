@@ -10,7 +10,7 @@ public class Flight {
     private double ticketPrice;
 
 
-    public Flight(String source, String destination, String airline, double ticketPrice) {
+    public Flight(int id, String source, String destination, String airline, double ticketPrice) {
         this.id = id;
         this.source = source;
         this.destination = destination;

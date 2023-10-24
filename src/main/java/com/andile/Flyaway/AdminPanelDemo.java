@@ -19,7 +19,7 @@ public class AdminPanelDemo {
             }
 
             // Add a flight
-            Flight newFlight = new Flight("SourceCity", "DestinationCity", "AirlineName", 250.0);
+            Flight newFlight = new Flight(1,"SourceCity", "DestinationCity", "AirlineName", 250.0);
             flightAdminController.addFlight(newFlight);
 
             // Delete a flight (replace 'flightId' with the actual flight ID)
